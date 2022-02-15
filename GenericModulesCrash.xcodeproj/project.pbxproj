@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B11FAEFC27BC1518006C5B0C /* UIModules in Frameworks */ = {isa = PBXBuildFile; productRef = B11FAEFB27BC1518006C5B0C /* UIModules */; };
 		B18C415227BBF70B008D9884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18C415127BBF70B008D9884 /* AppDelegate.swift */; };
 		B18C415427BBF70B008D9884 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18C415327BBF70B008D9884 /* SceneDelegate.swift */; };
 		B18C415627BBF70B008D9884 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18C415527BBF70B008D9884 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B11FAEFA27BC150C006C5B0C /* UIModules */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UIModules; sourceTree = "<group>"; };
 		B18C414E27BBF70B008D9884 /* GenericModulesCrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericModulesCrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18C415127BBF70B008D9884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B18C415327BBF70B008D9884 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B11FAEFC27BC1518006C5B0C /* UIModules in Frameworks */,
 				B18C416727BBF9BB008D9884 /* ModuleServices in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,11 +42,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B11FAEF927BC150C006C5B0C /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				B11FAEFA27BC150C006C5B0C /* UIModules */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		B18C414527BBF70B008D9884 = {
 			isa = PBXGroup;
 			children = (
+				B11FAEF927BC150C006C5B0C /* Packages */,
 				B18C415027BBF70B008D9884 /* GenericModulesCrash */,
 				B18C414F27BBF70B008D9884 /* Products */,
+				B18C416927BC1176008D9884 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +82,13 @@
 			path = GenericModulesCrash;
 			sourceTree = "<group>";
 		};
+		B18C416927BC1176008D9884 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -87,6 +107,7 @@
 			name = GenericModulesCrash;
 			packageProductDependencies = (
 				B18C416627BBF9BB008D9884 /* ModuleServices */,
+				B11FAEFB27BC1518006C5B0C /* UIModules */,
 			);
 			productName = GenericModulesCrash;
 			productReference = B18C414E27BBF70B008D9884 /* GenericModulesCrash.app */;
@@ -379,6 +400,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		B11FAEFB27BC1518006C5B0C /* UIModules */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UIModules;
+		};
 		B18C416627BBF9BB008D9884 /* ModuleServices */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B18C416527BBF9BB008D9884 /* XCRemoteSwiftPackageReference "ModuleServices" */;

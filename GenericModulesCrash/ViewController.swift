@@ -1,19 +1,19 @@
-//
-//  ViewController.swift
-//  GenericModulesCrash
-//
-//  Created by Iacopo Pazzaglia on 15/2/22.
-//
+import ModuleServices
+import UIModules
 
-import UIKit
-
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+class ViewController: ModulesViewController {
+    override func createModules() {
+        super.createModules()
+        
+        loadDummyModule()
     }
-
-
 }
 
+// MARK: - Private Methods
+private extension ViewController {
+    func loadDummyModule() {
+        let module = DummyModule(tableView: tableView!)
+        module.configure(decorator: DummyModuleDecorator())
+        appendModule(module)
+    }
+}

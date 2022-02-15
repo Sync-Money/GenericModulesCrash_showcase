@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CombinationGenerator",
+        "repositoryURL": "https://github.com/cosmicfools/CombinationGenerator",
+        "state": {
+          "branch": null,
+          "revision": "48fe12420a4765c126af9799540f474da5848f3c",
+          "version": "0.2.3"
+        }
+      },
+      {
+        "package": "ModuleServices",
+        "repositoryURL": "https://github.com/cosmicfools/ModuleServices",
+        "state": {
+          "branch": "master",
+          "revision": "7e82b2b5a45ba02863159d88e3f90371fbc9f108",
+          "version": null
+        }
+      },
+      {
+        "package": "Runtime",
+        "repositoryURL": "https://github.com/wickwirew/Runtime.git",
+        "state": {
+          "branch": null,
+          "revision": "dad03135d7701a4e7b3a4051e75d6b37bd8e178e",
+          "version": "2.2.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
