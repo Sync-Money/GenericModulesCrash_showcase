@@ -19,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		B11FAEFA27BC150C006C5B0C /* UIModules */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UIModules; sourceTree = "<group>"; };
+		B14D86C627BD0BA200C23E21 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B18C414E27BBF70B008D9884 /* GenericModulesCrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericModulesCrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18C415127BBF70B008D9884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B18C415327BBF70B008D9884 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +54,7 @@
 		B18C414527BBF70B008D9884 = {
 			isa = PBXGroup;
 			children = (
+				B14D86C627BD0BA200C23E21 /* README.md */,
 				B11FAEF927BC150C006C5B0C /* Packages */,
 				B18C415027BBF70B008D9884 /* GenericModulesCrash */,
 				B18C414F27BBF70B008D9884 /* Products */,
